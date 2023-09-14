@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "Number",
+						"type": "uint256"
+					}
+				],
+				"name": "setNumber",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "Number",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_Number",
+						"type": "uint256"
+					}
+				],
+				"name": "SetNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"new sap.sol": "sapstorage"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"new sap.sol": {
+			"keccak256": "0xda4bf9f47135360f7c6544d19b528b6b222b3af680a954bb486ba6f64efe7f6a",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://d8ad1aae77089226334be30f3128cfb47f059773bd9aab1f34d10a3cdf520247",
+				"dweb:/ipfs/QmUuqhAsfqKv4MFhJVmfcwDR49ewpdGuEhr3DuHTfke6cB"
+			]
+		}
+	},
+	"version": 1
+}
